@@ -18,3 +18,9 @@ def count_vowels(s: str) -> int:
 # - write a bunch of tests
 #   - empty string?
 #   - no vowels?
+
+
+if __name__ == '__main__':
+    print(count_vowels('abcde'))
+    print(count_vowels(['abcde']))
+    print(count_vowels(12345))
