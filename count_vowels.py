@@ -3,7 +3,7 @@
 def count_vowels(s):
     total = 0
 
-    for one_letter in s:
+    for one_letter in s.lower():
         if one_letter in 'aeiou':
             total += 1
 
