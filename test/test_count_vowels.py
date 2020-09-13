@@ -15,3 +15,7 @@ def test_simple_word():
 
 def test_simple_goodbye():
     assert count_vowels('GOODBYE') == 3
+
+
+def test_list():
+    assert count_vowels(['abcdefg']) == 3
