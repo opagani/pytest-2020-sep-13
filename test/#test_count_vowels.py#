@@ -1,0 +1,6 @@
+from count_vowels import count_vowels
+
+def test_count_empty():
+    assert count_vowels('') == 0
+
+def test
