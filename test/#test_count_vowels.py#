@@ -8,8 +8,8 @@ from count_vowels import count_vowels
                           ('rhythm', 0),
                           ('hello', 2),
                           ('GOODBYE', 3)])
-def test_count_vowels(s, count):            # part 3: the variables are s
-    assert count_vowels(s) == count
+def test_count_vowels(s, count):            # part 3: the variables are parameters for the function
+    assert count_vowels(s) == count         # par
 
 
 def test_list():
