@@ -18,4 +18,4 @@ def test_simple_goodbye():
 
 
 def test_list():
-    assert count_vowels(['abcdefg']) == 3
+    assert count_vowels(['abcdefg']) == 2
