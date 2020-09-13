@@ -9,3 +9,8 @@ def test_hello():
 def test_hello2():
     output = hello('someone else')
     assert output == 'Hello, someone else!'
+
+
+def test_hello3():
+    output = hello('someone else?????')
+    assert output == 'Hello, someone else!'
