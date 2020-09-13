@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-def count_vowels(s):
+def count_vowels(s: str) -> int:
     total = 0
 
     for one_letter in s.lower():
