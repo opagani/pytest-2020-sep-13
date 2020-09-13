@@ -1,3 +1,14 @@
+#!/usr/bin/env python3
+
+def count_vowels(s):
+    total = 0
+
+    for one_letter in s:
+        if one_letter in 'aeiou':
+            total += 1
+
+    return total
+
 # write a function, count_vowels, which takes a string as
 # an argument and returns an integer count of how many
 # vowels were in the string
