@@ -16,3 +16,10 @@
 # - computer -> omputercay
 # - table -> abletay
 # - papaya -> apayapay
+
+# the test for plword should:
+# - handle empty string
+# - handle words with vowels at the start
+# - handle words with consonants at the start
+
+# use parametrized tests to do this
