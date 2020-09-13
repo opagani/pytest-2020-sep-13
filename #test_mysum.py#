@@ -1,4 +1,0 @@
-from mysum import mysum
-
-def test_mysum_simple():
-    
