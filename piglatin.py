@@ -9,3 +9,10 @@
 
 # rules:
 # (1) If the word starts with a vowel, add "way"
+# (2) Otherwise, move the first letter to the end, and add "ay"
+
+# examples:
+# - octopus -> octopusway
+# - computer -> omputercay
+# - table -> abletay
+# - papaya -> apayapay
