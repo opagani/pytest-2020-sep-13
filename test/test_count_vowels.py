@@ -20,4 +20,5 @@ def test_simple_goodbye():
 
 
 def test_list():
-    assert count_vowels(['abcdefg']) == 2
+    with pytest.raises(AttributeError):
+        assert count_vowels(['abcdefg'])
